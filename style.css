@@ -5,13 +5,21 @@ body {
   color: #333;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 /* Centered nav bar styling */
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
   gap: 20px;
 }
 
@@ -29,11 +37,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Center header titles */
-header {
-  text-align: center;
-}
-
 h1 {
   color: #444;
 }
@@ -41,4 +44,3 @@ h1 {
 h2 {
   color: #555;
 }
-
