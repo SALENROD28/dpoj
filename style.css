@@ -11,7 +11,7 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* This centers the nav */
+  justify-content: center;  /* Center horizontally */
   gap: 20px;
 }
 
@@ -36,3 +36,4 @@ h1 {
 h2 {
   color: #555;
 }
+
