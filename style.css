@@ -5,21 +5,13 @@ body {
   color: #333;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 /* Centered nav bar styling */
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Center horizontally */
   gap: 20px;
 }
 
@@ -37,10 +29,28 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* Heading styles */
 h1 {
   color: #444;
 }
 
 h2 {
   color: #555;
+}
+
+/* Center the title block */
+.title-block {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title-block h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.title-block h2,
+.title-block h3 {
+  font-weight: normal;
+  margin: 0.2em 0;
 }
