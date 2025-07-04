@@ -1,11 +1,12 @@
+/* Base body styling */
 body {
   font-family: Georgia, serif;
   margin: 40px;
-  background-color: #fde6ea; /* Light pink background */
+  background-color: #fde6ea; /* Light pink */
   color: #333;
 }
 
-/* Title block centered */
+/* Title block */
 .title-block {
   text-align: center;
   margin-bottom: 20px;
@@ -27,10 +28,10 @@ body {
 .title-block h3 {
   margin: 0.2em 0;
   font-size: 1.2em;
-  color: #6a4f76; /* Muted purple */
+  color: #6a4f76;
 }
 
-/* Centered nav bar styling */
+/* Navigation bar */
 nav ul {
   list-style: none;
   padding: 0;
@@ -46,7 +47,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #b10059; /* Match title color */
+  color: #b10059;
   font-weight: bold;
   font-size: 1.1em;
 }
@@ -55,7 +56,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Heading styles inside main content */
+/* Main content headings and paragraphs */
 main h1 {
   color: #b10059;
 }
@@ -63,15 +64,40 @@ main h1 {
 main p {
   color: #333;
 }
+
+/* Transcript styles */
+.transcript-content {
+  color: #000; /* Pure black text */
+  text-align: left;
+  margin: 40px;
+}
+
+.transcript-content p {
+  margin-bottom: 1em;
+}
+
+.transcript-content strong {
+  font-weight: bold;
+}
+
 /* Center audio player */
 .audio-center {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
-/* Center image styling */
-.image-center {
+
+/* NEW: Row of three images (left, center, right) */
+.image-row {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  gap: 40px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.transcript-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
 }
