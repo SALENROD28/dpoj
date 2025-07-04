@@ -63,3 +63,9 @@ main h1 {
 main p {
   color: #333;
 }
+/* Center audio player */
+.audio-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
