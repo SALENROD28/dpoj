@@ -1,62 +1,103 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Transcript</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    .center-media {
-      display: flex;
-      justify-content: center;
+    body {
+      background-color: #f9f9f9;
+      color: #000;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      text-align: center;
       margin: 20px 0;
     }
-    .center-media img {
+
+    .navbar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .navbar li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .image-container,
+    .audio-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .centered-image {
       max-width: 300px;
       height: auto;
-      border-radius: 8px;
+      border-radius: 6px;
+    }
+
+    .transcript p {
+      text-align: left;
+      color: #000;
+      line-height: 1.6;
+      margin-bottom: 1em;
+    }
+
+    .transcript strong {
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <!-- Title block centered -->
-  <div class="title-block">
-    <h1>Queer Silence and Digital Spaces</h1>
-    <h2>An interview with Dr. J. Logan Smilges</h2>
-    <h3>A webtext by David Ornelas</h3>
-  </div>
 
-  <!-- Navigation -->
-  <nav>
+  <nav class="navbar">
     <ul>
-      <li><a href="index.html">Introduction</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="transcript.html">Transcript</a></li>
       <li><a href="reflection.html">Reflection</a></li>
-      <li><a href="credits.html">Acknowledgments & Credits</a></li>
+      <li><a href="credits.html">Credits</a></li>
     </ul>
   </nav>
 
-  <hr />
-
-  <!-- Main content -->
-  <main>
-    <h1>Transcript</h1>
-    <p>Listen to the full interview below:</p>
-
-    <!-- Centered image -->
-    <div class="center-media">
-      <img src="assets/queer-silence.jpg" alt="Queer Silence book cover" />
+  <main class="content">
+    <div class="image-container">
+      <img src="assets/queer-silence.jpg" alt="Queer Silence book cover" class="centered-image" />
     </div>
 
-    <!-- Centered audio player -->
-    <div class="center-media">
+    <div class="audio-container">
       <audio controls>
-        <source src="assets/GMT20250318-203705_Recording(3)%20(online-audio-converter.com).mp3" type="audio/mpeg">
+        <source src="assets/GMT20250318-203705_Recording(3).mp3" type="audio/mp3">
         Your browser does not support the audio element.
       </audio>
     </div>
 
-    <p>[Insert your full transcript or transcript summary here]</p>
+    <div class="transcript">
+      <h2>Interview Transcript</h2>
+
+      <p><strong>David Ornelas:</strong> So, Dr. Smilges. We know who you are, but what is your name and your research interests</p>
+      <p>Logan Smilges: My name is Logan Smilges, and when I publish I usually tack on the first initial of my first name, J, and my research interests kind of hover around queer and trans disability studies, rhetorical studies, and the history of medicine.</p>
+
+      <p><strong>David Ornelas:</strong> Although your *Queer Silence on Disability and Rhetorical Absence* book was really big, how was that like? What was your journey that sparked that? And then going into *Crip Negativity*, and the rest of your books?</p>
+
+      <p>Logan Smilges: Oh, goodness! Well, *Queer Silence*—my first book—was loosely based on my dissertation. I would say about 50% of my dissertation found its way into the book. And I note that because my dissertation was very much the culmination of a series of questions that led me to grad school to begin with...</p>
+    </div>
   </main>
 </body>
 </html>
