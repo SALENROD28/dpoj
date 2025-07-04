@@ -5,9 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Transcript</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .center-media {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .center-media img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-
   <!-- Title block centered -->
   <div class="title-block">
     <h1>Queer Silence and Digital Spaces</h1>
@@ -32,8 +43,13 @@
     <h1>Transcript</h1>
     <p>Listen to the full interview below:</p>
 
+    <!-- Centered image -->
+    <div class="center-media">
+      <img src="assets/queer-silence.jpg" alt="Queer Silence book cover" />
+    </div>
+
     <!-- Centered audio player -->
-    <div class="audio-center">
+    <div class="center-media">
       <audio controls>
         <source src="assets/GMT20250318-203705_Recording(3)%20(online-audio-converter.com).mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -42,6 +58,5 @@
 
     <p>[Insert your full transcript or transcript summary here]</p>
   </main>
-
 </body>
 </html>
