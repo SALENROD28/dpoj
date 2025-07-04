@@ -1,32 +1,33 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, serif;
   margin: 40px;
-  background-color: #f9f9f9;
+  background-color: #fde6ea; /* Light pink background */
   color: #333;
 }
 
-/* Center the title block */
+/* Title block centered */
 .title-block {
   text-align: center;
   margin-bottom: 20px;
 }
 
 .title-block h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0.4em 0;
-  color: #333;
+  color: #b10059; /* Deep pink */
+  font-weight: bold;
 }
 
 .title-block h2 {
   margin: 0.2em 0;
-  font-size: 1.3em;
-  color: #444;
+  font-size: 1.5em;
+  color: #6a4f76; /* Muted purple */
 }
 
 .title-block h3 {
   margin: 0.2em 0;
-  font-size: 1.1em;
-  color: #555;
+  font-size: 1.2em;
+  color: #6a4f76; /* Muted purple */
 }
 
 /* Centered nav bar styling */
@@ -35,8 +36,8 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  gap: 20px;
+  justify-content: center;
+  gap: 30px;
 }
 
 nav ul li {
@@ -45,8 +46,9 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #0066cc;
+  color: #b10059; /* Match title color */
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 nav ul li a:hover {
@@ -55,7 +57,7 @@ nav ul li a:hover {
 
 /* Heading styles inside main content */
 main h1 {
-  color: #444;
+  color: #b10059;
 }
 
 main p {
