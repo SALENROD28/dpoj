@@ -6,47 +6,40 @@
   <title>Transcript</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    .center-media {
-      display: flex;
-      justify-content: center;
-      margin: 20px 0;
-    }
-
-    .center-media img {
-      max-width: 300px;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    .transcript-content {
-      color: #000; /* Black text */
+    .transcript-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
       text-align: left;
-      margin: 40px;
+      line-height: 1.6;
+      color: #000;
     }
-
-    .transcript-content p {
+    .transcript-wrapper p {
       margin-bottom: 1em;
     }
-
-    .transcript-content strong {
+    .transcript-wrapper strong {
       font-weight: bold;
     }
-
     .image-row {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px;
-      margin-bottom: 20px;
+      gap: 40px;
+      margin-bottom: 30px;
     }
-
     .transcript-image {
-      max-width: 200px;
+      max-width: 250px;
       height: auto;
       border-radius: 8px;
     }
+    .audio-center {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
   </style>
 </head>
+  
 <body>
 
   <!-- Title block -->
@@ -75,9 +68,9 @@
 
     <!-- Centered image row -->
     <div class="image-row">
-    <img src="assets/image-left.jpg" alt="Left image" class="transcript-image" />
-    <img src="assets/queer-silence.jpg" alt="Queer Silence book cover" class="transcript-image" />
-    <img src="assets/image-right.jpg" alt="Right image" class="transcript-image" />
+      <img src="assets/image-left.jpg" alt="Left image" class="transcript-image" />
+      <img src="assets/queer-silence.jpg" alt="Queer Silence book cover" class="transcript-image" />
+      <img src="assets/image-right.jpg" alt="Right image" class="transcript-image" />
     </div>
 
 
@@ -90,7 +83,7 @@
     </div>
 
     <!-- Transcript content -->
-    <div class="transcript-content">
+    <div class="transcript-wrapper">
       <h2>Interview Transcript</h2>
 
       <p><strong>David Ornelas:</strong> So, Dr. Smilges. We know who you are, but what is your name and your research interests</p>
