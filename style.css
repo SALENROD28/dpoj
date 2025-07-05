@@ -82,9 +82,12 @@ main p {
 
 /* Center audio player */
 .audio-center {
+  .audio-center {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  align-items: center;
+  margin: 20px auto;
+  width: 100%;
 }
 
 /* NEW: Row of three images (left, center, right) */
