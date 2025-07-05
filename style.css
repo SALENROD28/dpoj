@@ -82,11 +82,15 @@ main p {
 
 /* Center audio player */
 .audio-center {
-  .audio-center {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px auto;
+  width: 100%;
+}
+
+.audio-center audio {
+  max-width: 500px;
   width: 100%;
 }
 
