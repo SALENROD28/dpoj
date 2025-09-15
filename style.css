@@ -121,6 +121,11 @@ main p {
   box-sizing: border-box;
 }
 
+.transcript-wrapper p strong {
+  font-weight: bold;
+  color: #000;
+}
+
 hr {
   width: 85%;        
   margin: 20px auto; 
