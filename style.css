@@ -72,12 +72,12 @@ main p {
   margin: 40px;
 }
 
-.transcript-content p {
-  margin-bottom: 1em;
-}
-
 .transcript-content strong {
   font-weight: bold;
+}
+
+.transcript-content h1 {
+  text-align: center;
 }
 
 /* Center audio player */
