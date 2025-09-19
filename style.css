@@ -2,7 +2,7 @@
 body {
   font-family: Georgia, serif;
   margin: 40px;
-  background-color: #fde6ea; /* Light pink */
+  background-color: #fde6ea;
   color: #333;
 }
 
@@ -15,14 +15,14 @@ body {
 .title-block h1 {
   font-size: 3em;
   margin: 0.4em 0;
-  color: #b10059; /* Deep pink */
+  color: #b10059;
   font-weight: bold;
 }
 
 .title-block h2 {
   margin: 0.2em 0;
   font-size: 1.5em;
-  color: #6a4f76; /* Muted purple */
+  color: #6a4f76;
 }
 
 .title-block h3 {
@@ -65,7 +65,7 @@ main p {
 }
 
 .transcript-content {
-  color: #000; /* Pure black text */
+  color: #000;
   text-align: left;
   margin: 40px;
 }
