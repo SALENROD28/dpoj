@@ -139,7 +139,6 @@ main h3 {
   font-weight: 700;
 }
 
-/* References list: no bullets, nice spacing */
 ul.refs {
   list-style: none;
   padding-left: 0;
@@ -147,6 +146,5 @@ ul.refs {
 }
 ul.refs li { margin-bottom: 0.6rem; }
 
-/* Interview questions list spacing */
 ol.qa-list { margin: 0.5rem 0 2.5rem; }
 ol.qa-list li { margin: 0.4rem 0; }
