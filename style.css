@@ -56,7 +56,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Main content headings and paragraphs */
 main h1 {
   color: #b10059;
 }
@@ -65,7 +64,6 @@ main p {
   color: #333;
 }
 
-/* Transcript styles */
 .transcript-content {
   color: #000; /* Pure black text */
   text-align: left;
@@ -99,7 +97,6 @@ main p {
   width: 100%;
 }
 
-/* NEW: Row of three images (left, center, right) */
 .image-row {
   display: flex;
   justify-content: center;
