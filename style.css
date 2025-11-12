@@ -141,3 +141,37 @@ ul.refs li { margin-bottom: 0.6rem; }
 
 ol.qa-list { margin: 0.5rem 0 2.5rem; }
 ol.qa-list li { margin: 0.4rem 0; }
+
+.transcript h2 {
+  color: #b30059;
+}
+
+.accordion-btn {
+  background-color: #ffd1dc;
+  color: #b30059;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #f0a3c0;
+}
+
+.accordion-btn:hover {
+  background-color: #f7b6c9;
+}
+
+.accordion-panel {
+  padding: 0 15px 15px;
+  background-color: #fff0f5;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion-panel p {
+  line-height: 1.5;
+}
