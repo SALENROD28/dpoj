@@ -175,3 +175,10 @@ ol.qa-list li { margin: 0.4rem 0; }
 .accordion-panel p {
   line-height: 1.5;
 }
+
+.audio-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
