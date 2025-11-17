@@ -96,22 +96,23 @@ main p {
 .image-row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
   margin: 30px 0;
-  flex-wrap: wrap;
 }
 
+/* RESET IMAGE SIZES TO ORIGINAL */
 .transcript-image {
   max-width: 300px;
   height: auto;
   border-radius: 8px;
 }
 
-.content-wrapper {
-  max-width: 800px;
+/* RESET CONTAINER WIDTH TO ORIGINAL */
+.content-container {
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box;
 }
 
 .transcript-wrapper p strong {
