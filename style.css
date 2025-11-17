@@ -205,3 +205,10 @@ ol.qa-list li { margin: 0.4rem 0; }
 .accordion {
   width: 100%;
 }
+
+.intro-main {
+    max-width: 1100px; /* or your preferred width */
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
