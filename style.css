@@ -189,7 +189,7 @@ ol.qa-list li { margin: 0.4rem 0; }
 }
 
 .content-container {
-  max-width: 900px;   /* adjust if you want it wider or narrower */
+  max-width: 1100px;   /* adjust if you want it wider or narrower */
   margin: 0 auto;      /* centers the whole block */
   padding: 0 20px;     /* optional breathing room */
 }
