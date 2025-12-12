@@ -233,3 +233,28 @@ ol.qa-list li { margin: 0.4rem 0; }
   margin: 0 auto;
   display: block;
 }
+
+/* Reflection layout (matches Introduction layout) */
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.intro-text {
+  flex: 2;
+}
+
+.intro-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.intro-images img {
+  width: 100%;
+  border-radius: 10px;
+}
