@@ -62,23 +62,48 @@ Furthermore, Dr. Smilges work is groundbreaking that isn’t focused on just one
 You can also discuss <em>Crip Negativity</em> and how Smilges’s critique of liberal disability politics 
 shaped the way you think about pedagogy, digital spaces, queer resistance, or identity formation.
 </p>
-  
-<!-- REFLECTION DROPDOWN START -->
-<div class="accordion">
-  <button class="accordion-header"
-    onclick="this.nextElementSibling.style.display =
-      this.nextElementSibling.style.display === 'block' ? 'none' : 'block';">
-    Reflection
-  </button>
 
-  <div class="accordion-content"> style="display: none;">
-    <p>
-      Add your reflection content here. This text will be hidden until the
-      “Reflection” button is clicked.
-    </p>
+<section class="reflection-accordion">
+
+  <div class="accordion-item">
+    <button class="accordion-header">
+      Reflection on Queer Silence
+    </button>
+    <div class="accordion-content">
+      <p>
+        Here you can reflect on queer silence as a rhetorical strategy,
+        particularly how Smilges frames silence not as absence, but as
+        meaningful resistance within digital spaces.
+      </p>
+    </div>
   </div>
-</div>
-<!-- REFLECTION DROPDOWN END -->
+
+  <div class="accordion-item">
+    <button class="accordion-header">
+      Reflection on Crip Negativity
+    </button>
+    <div class="accordion-content">
+      <p>
+        This section can discuss <em>Crip Negativity</em> and how Smilges’s
+        critique of liberal disability politics reshaped your thinking
+        about pedagogy, access, and digital rhetoric.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-header">
+      Reflection on Digital Pedagogy
+    </button>
+    <div class="accordion-content">
+      <p>
+        Reflect on how this project influenced your understanding of
+        teaching, accessibility, and queer digital spaces.
+      </p>
+    </div>
+  </div>
+
+</section>
 
 <h2>Reflection Conclusion</h2>
 
@@ -91,12 +116,9 @@ book analysis, and personal research journey.
 </div>
 
 <script>
-  const accordions = document.querySelectorAll(".accordion-header");
-
-  accordions.forEach(button => {
-    button.addEventListener("click", () => {
-      const content = button.nextElementSibling;
-
+  document.querySelectorAll(".accordion-header").forEach(header => {
+    header.addEventListener("click", () => {
+      const content = header.nextElementSibling;
       content.style.display =
         content.style.display === "block" ? "none" : "block";
     });
