@@ -265,12 +265,17 @@ hr + hr {
 }
 
 .book-row {
-  height: 400px;
-  width: auto;
-  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px auto;
 }
 
 .book-row img {
-  width: 350px;
+  height: 400px;        /* same height for both */
+  width: auto;          /* keeps proportions */
+  max-width: 100%;      /* prevents overflow */
   border-radius: 10px;
+  object-fit: cover;    /* ensures clean crop if needed */
 }
