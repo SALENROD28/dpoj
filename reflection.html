@@ -84,6 +84,22 @@ shaped the way you think about pedagogy, digital spaces, queer resistance, or id
 Insert your concluding thoughts here. This is where you tie together your interview insights, 
 book analysis, and personal research journey.
 </p>
-
+  
 </main>
 </div>
+
+<script>
+  const accordions = document.querySelectorAll(".accordion-header");
+
+  accordions.forEach(button => {
+    button.addEventListener("click", () => {
+      const content = button.nextElementSibling;
+
+      content.style.display =
+        content.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
+
+</body>
+</html>
