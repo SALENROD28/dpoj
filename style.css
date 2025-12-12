@@ -283,3 +283,29 @@ hr + hr {
 .accordion-content {
   display: none;
 }
+
+.accordion-item {
+  border-bottom: 1px solid #b44a6f;
+}
+
+.accordion-header {
+  width: 100%;
+  text-align: left;
+  padding: 1.25rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #f7cfd9;
+  color: #8b1c4a;
+  border: none;
+  cursor: pointer;
+}
+
+.accordion-header:hover {
+  background-color: #f0b8c7;
+}
+
+.accordion-content {
+  display: none;
+  padding: 1.5rem;
+  background-color: #fde6ec;
+}
