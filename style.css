@@ -265,10 +265,9 @@ hr + hr {
 }
 
 .book-row {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 30px 0;
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
 }
 
 .book-row img {
