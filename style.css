@@ -130,8 +130,9 @@ main p {
 hr {
   width: 85%;        
   margin: 20px auto; 
-  border: 0;
+  border: none;
   border-top: 2px solid #333;
+  display: block;
 }
 main h3 {
   font-size: clamp(22px, 3vw, 34px);
@@ -257,4 +258,8 @@ ol.qa-list li { margin: 0.4rem 0; }
 .intro-images img {
   width: 100%;
   border-radius: 10px;
+}
+
+hr + hr {
+    display: none !important;
 }
